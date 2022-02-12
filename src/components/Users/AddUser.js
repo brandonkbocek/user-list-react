@@ -26,6 +26,7 @@ const AddUser = props => {
             });
             return;
         }
+        // this function was created in App.js and passed as prop to this AddUser component & appends array of users
         props.onAddUser(enteredUsername, enteredAge);
         setNewUsername('');
         setNewUserAge('');
